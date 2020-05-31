@@ -2,6 +2,7 @@
   "name": "henry-keyboard",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jesselumarie.github.io/kid-keyboard",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -12,9 +13,10 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "react-scripts build && git subtree push --prefix build origin gh-pages",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -22,11 +24,7 @@
     "extends": "react-app"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [">0.2%", "not dead", "not op_mini all"],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
