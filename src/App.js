@@ -17,18 +17,28 @@ function setSpeech() {
 }
 
 function handleKeyDown(evt, setLetter) {
-  const letter = String.fromCharCode(evt.keyCode || evt.charCode);
-  setLetter(letter);
-  let utterance = new SpeechSynthesisUtterance(letter);
-  return setSpeech().then(voices => {
-    utterance.voice = getVoice(voices);
-    window.speechSynthesis.speak(utterance);
-    return evt;
-  });
+  console.log(evt.keyCode)
+  if (
+    // Numbers
+    (evt.keyCode >= 48 && evt.keyCode <= 57) ||
+    // Uppercase
+    (evt.keyCode >= 65 && evt.keyCode <= 90) ||
+    // Lowercase
+    (evt.keyCode >= 97 && evt.keyCode <= 122)
+  ) {
+    const letter = String.fromCharCode(evt.keyCode || evt.charCode);
+    setLetter(letter);
+    let utterance = new SpeechSynthesisUtterance(letter);
+    return setSpeech().then(voices => {
+      utterance.voice = getVoice(voices);
+      window.speechSynthesis.speak(utterance);
+      return evt;
+    });
+  }
 }
 
 function getVoice(voices) {
-  let filteredVoices = voices.filter((v) => v.lang==='en-US')
+  let filteredVoices = voices.filter(v => v.lang === "en-US");
   return filteredVoices[Date.now() % filteredVoices.length];
 }
 
