@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f8eec0d591c2433c7b7b82853f4c9af6",
+    "revision": "5923e455a76f3cd7c4e93deda6e38217",
     "url": "/kid-keyboard/index.html"
   },
   {
