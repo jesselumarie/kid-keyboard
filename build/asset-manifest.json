@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/kid-keyboard/static/css/main.eab24d3c.chunk.css",
-    "main.js": "/kid-keyboard/static/js/main.a8174bfb.chunk.js",
-    "main.js.map": "/kid-keyboard/static/js/main.a8174bfb.chunk.js.map",
+    "main.js": "/kid-keyboard/static/js/main.18617c21.chunk.js",
+    "main.js.map": "/kid-keyboard/static/js/main.18617c21.chunk.js.map",
     "runtime-main.js": "/kid-keyboard/static/js/runtime-main.8a6aebef.js",
     "runtime-main.js.map": "/kid-keyboard/static/js/runtime-main.8a6aebef.js.map",
     "static/js/2.ce3b49c0.chunk.js": "/kid-keyboard/static/js/2.ce3b49c0.chunk.js",
     "static/js/2.ce3b49c0.chunk.js.map": "/kid-keyboard/static/js/2.ce3b49c0.chunk.js.map",
     "index.html": "/kid-keyboard/index.html",
-    "precache-manifest.494ecac0b4a9b0e8b2d3bd0bef8600f1.js": "/kid-keyboard/precache-manifest.494ecac0b4a9b0e8b2d3bd0bef8600f1.js",
+    "precache-manifest.7111e5e3ec27d56f97fe3dbb18bb91e2.js": "/kid-keyboard/precache-manifest.7111e5e3ec27d56f97fe3dbb18bb91e2.js",
     "service-worker.js": "/kid-keyboard/service-worker.js",
     "static/css/main.eab24d3c.chunk.css.map": "/kid-keyboard/static/css/main.eab24d3c.chunk.css.map",
     "static/js/2.ce3b49c0.chunk.js.LICENSE.txt": "/kid-keyboard/static/js/2.ce3b49c0.chunk.js.LICENSE.txt",
@@ -54,6 +54,6 @@
     "static/js/runtime-main.8a6aebef.js",
     "static/js/2.ce3b49c0.chunk.js",
     "static/css/main.eab24d3c.chunk.css",
-    "static/js/main.a8174bfb.chunk.js"
+    "static/js/main.18617c21.chunk.js"
   ]
 }

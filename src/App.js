@@ -83,12 +83,6 @@ const letterMap = {
     emoji: "🪔",
     word: "lamp",
   },
-  LL: {
-    letter: "L",
-    sound: "luh",
-    emoji: "🦙",
-    word: "llahma",
-  },
   M: {
     letter: "M",
     sound: "mm",
@@ -249,7 +243,11 @@ function App() {
 
   let image = "";
   if (pressedKeys) {
-    image = require("./letters/" + pressedKeys + ".jpg");
+    try {
+      image = require("./letters/" + pressedKeys + ".jpg");
+    } catch (e) {
+      console.log(e);
+    }
   }
 
   return (
@@ -259,7 +257,7 @@ function App() {
       {!pressedKeys && (
         <div
           style={{
-            fontSize: 64,
+            fontSize: isMobile ? 32 : 64,
             textShadow: `10px 10px 15px ${getColor()}`,
           }}
         >
@@ -278,7 +276,7 @@ function App() {
           <>
             <div
               style={{
-                fontSize: 600,
+                fontSize: isMobile ? 32 : 600,
                 textShadow: `10px 10px 15px ${
                   VOWELS.includes(pressedKeys) ? "red" : "blue"
                 }`,
@@ -295,7 +293,7 @@ function App() {
             {letterMap[pressedKeys] && (
               <div
                 style={{
-                  fontSize: 64,
+                  fontSize: isMobile ? 32 : 64,
                 }}
               >
                 {letterMap[pressedKeys.toUpperCase()].emoji}
