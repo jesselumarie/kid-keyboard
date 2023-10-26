@@ -1,8 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { VoiceSelector } from "./VoiceSelector";
+import { InvisibleInput } from "./InvisibleInput";
 import "./App.css";
 
 const VOWELS = ["A", "E", "I", "O", "U"];
+
+const isMobile =
+  /mobi/i.test(navigator.userAgent) ||
+  "ontouchstart" in window ||
+  navigator.maxTouchPoints > 0;
 
 const letterMap = {
   A: {
@@ -248,6 +254,7 @@ function App() {
 
   return (
     <div className="App">
+      {isMobile && <InvisibleInput />}
       {false && <VoiceSelector onChange={setVoice} />}
       {!pressedKeys && (
         <div
