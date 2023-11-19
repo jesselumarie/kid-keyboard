@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a838062e0302af18cfde6191d980a6c7",
+    "revision": "c60b213006029ed251d21336a021b199",
     "url": "/kid-keyboard/index.html"
   },
   {
-    "revision": "80ea32c2e0ac3cefb054",
+    "revision": "03a3a862d162bc770abc",
     "url": "/kid-keyboard/static/css/main.eab24d3c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kid-keyboard/static/js/2.ce3b49c0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "80ea32c2e0ac3cefb054",
-    "url": "/kid-keyboard/static/js/main.939bb3b9.chunk.js"
+    "revision": "03a3a862d162bc770abc",
+    "url": "/kid-keyboard/static/js/main.c6897ebd.chunk.js"
   },
   {
     "revision": "1bb140bb53a12625de6d",
@@ -121,7 +121,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "b9d2d4259394936beac04a1e1d891029",
-    "url": "/kid-keyboard/static/media/QU.b9d2d425.mp3"
+    "url": "/kid-keyboard/static/media/Q.b9d2d425.mp3"
   },
   {
     "revision": "d8247e32f1b16d19c7a3215a1dad619b",
