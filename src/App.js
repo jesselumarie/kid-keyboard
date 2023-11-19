@@ -107,7 +107,7 @@ const letterMap = {
     emoji: "🍳",
     word: "pan",
   },
-  Q: {
+  QU: {
     letter: "Q",
     sound: "quh",
     emoji: "👸",
