@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b02cdfb8297367be77cdfc0f6f9b5341",
+    "revision": "6e5c8bb25523dd9ac34251e8b1999395",
     "url": "/kid-keyboard/index.html"
   },
   {
-    "revision": "08ef5ef6730c95f04146",
+    "revision": "d9f268db78d9cb4e3b56",
     "url": "/kid-keyboard/static/css/main.eab24d3c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kid-keyboard/static/js/2.ce3b49c0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "08ef5ef6730c95f04146",
-    "url": "/kid-keyboard/static/js/main.18617c21.chunk.js"
+    "revision": "d9f268db78d9cb4e3b56",
+    "url": "/kid-keyboard/static/js/main.5860a609.chunk.js"
   },
   {
     "revision": "1bb140bb53a12625de6d",
@@ -112,16 +112,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kid-keyboard/static/media/O.66242e77.jpg"
   },
   {
-    "revision": "18c3d3b0b32c0830d81f5f6f3e4f8ee9",
-    "url": "/kid-keyboard/static/media/P.18c3d3b0.mp3"
-  },
-  {
-    "revision": "7c947101401dfef06b5b4bc52acf22e9",
-    "url": "/kid-keyboard/static/media/Q.7c947101.mp3"
+    "revision": "42139a9a67ec996c93a4d69bf5c6a1a5",
+    "url": "/kid-keyboard/static/media/P.42139a9a.mp3"
   },
   {
     "revision": "b92aa1111befed98227b11d6cbff2928",
     "url": "/kid-keyboard/static/media/Q.b92aa111.jpg"
+  },
+  {
+    "revision": "b9d2d4259394936beac04a1e1d891029",
+    "url": "/kid-keyboard/static/media/QU.b9d2d425.mp3"
   },
   {
     "revision": "d8247e32f1b16d19c7a3215a1dad619b",
@@ -160,15 +160,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kid-keyboard/static/media/WH.441da7e5.jpg"
   },
   {
-    "revision": "928681da13a2e081abcc775b692d7cbb",
-    "url": "/kid-keyboard/static/media/X.928681da.mp3"
+    "revision": "faa006fe028f45619e723aa7a4d2baab",
+    "url": "/kid-keyboard/static/media/X.faa006fe.mp3"
   },
   {
     "revision": "73027985246e1bc591672fba7ac265d1",
     "url": "/kid-keyboard/static/media/Y.73027985.mp3"
   },
   {
-    "revision": "4262ad9fba64bdad7dabb262bb1f036e",
-    "url": "/kid-keyboard/static/media/Z.4262ad9f.mp3"
+    "revision": "6c538c67f8468beb56c982a27c4520e4",
+    "url": "/kid-keyboard/static/media/Z.6c538c67.mp3"
   }
 ]);
