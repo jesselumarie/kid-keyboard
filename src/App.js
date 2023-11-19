@@ -107,7 +107,7 @@ const letterMap = {
     emoji: "🍳",
     word: "pan",
   },
-  QU: {
+  Q: {
     letter: "Q",
     sound: "quh",
     emoji: "👸",
@@ -170,6 +170,7 @@ const letterMap = {
 };
 
 function handleKeyDown(letterInfo, setPressedKeys, voice) {
+  console.log("handleKeyDown", letterInfo);
   try {
     let recordingFile = require("./recordings/" + letterInfo.letter + ".mp3");
     const audio = new Audio(recordingFile);
@@ -213,6 +214,7 @@ function App() {
         evt.keyCode || evt.charCode
       ).toUpperCase();
 
+      console.log({ pressedKeys, letter });
       const letterInfo = letterMap[pressedKeys + letter];
 
       if (!letterInfo) {

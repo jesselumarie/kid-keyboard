@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e5c8bb25523dd9ac34251e8b1999395",
+    "revision": "a838062e0302af18cfde6191d980a6c7",
     "url": "/kid-keyboard/index.html"
   },
   {
-    "revision": "d9f268db78d9cb4e3b56",
+    "revision": "80ea32c2e0ac3cefb054",
     "url": "/kid-keyboard/static/css/main.eab24d3c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kid-keyboard/static/js/2.ce3b49c0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d9f268db78d9cb4e3b56",
-    "url": "/kid-keyboard/static/js/main.5860a609.chunk.js"
+    "revision": "80ea32c2e0ac3cefb054",
+    "url": "/kid-keyboard/static/js/main.939bb3b9.chunk.js"
   },
   {
     "revision": "1bb140bb53a12625de6d",
